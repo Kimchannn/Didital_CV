@@ -1,0 +1,196 @@
+:root {
+  --background-color-label: #199cdb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppin", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bg-light {
+  background-color: #ddd;
+}
+
+.bg-darker {
+  background-color: #eee;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  height: 100%;
+  padding: 1rem;
+}
+
+.job-info-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.label {
+  background-color: #199cdb;
+  padding: 0 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.job-info-detail h5 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.job-info-head i {
+  font-size: 2.4rem;
+}
+.section-title {
+  margin-bottom: 1.6rem;
+}
+
+/* BANNER */
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("../images/banner.jpg");
+  height: 100vh;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.banner .text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  font-size: 4.4rem;
+}
+
+.banner span {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+nav {
+  line-height: 40px;
+}
+nav img {
+  width: 20px;
+  height: 20px;
+  transform: scale(6);
+  outline: 1px solid #fff;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+#target {
+  padding: 4.8rem 10px 1.6rem 30%;
+}
+
+#personal-info {
+  padding: 4.8rem 50% 1.6rem 10px;
+}
+
+/* JOB INFO */
+
+.hobby .job-info-content-item {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.hobby .box-item i {
+  font-size: 1.8rem;
+  border: 1px solid var(--background-color-label);
+  border-radius: 50%;
+  padding: 2rem 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.hobby .box-item {
+  display: flex;
+  flex-direction: column;
+}
+.languages .level span,
+.skills .level span {
+  display: inline-block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: var(--background-color-label);
+  margin: 0 0.2rem;
+}
+
+/* CERTIFICATE */
+
+.certificate h5 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.certificate .certificate-detail {
+  margin-left: 1rem;
+}
+/* PROJECT */
+.project .section-box {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  height: 100%;
+}
+
+.project .project-item-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.project-item-header,
+.project tr td {
+  border-top: 1px solid #ddd;
+}
+.project table tr td {
+  padding: 1rem 1rem;
+}
+
+/* FOOTER */
+footer {
+  padding: 4rem;
+  font-size: 2.4rem;
+  background-color: #eee;
+}
+
+footer i {
+  font-size: 3.2rem;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .banner .text-box h1 {
+    font-size: 3.2rem;
+  }
+
+  .banner .text-box span {
+    font-size: 1.6rem;
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  #target {
+    padding-left: 10px !important;
+  }
+}

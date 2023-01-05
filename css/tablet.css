@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+
+  nav {
+    padding: 0 !important;
+    line-height: 30px;
+  }
+}
